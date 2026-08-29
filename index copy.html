@@ -19,14 +19,13 @@
     </style>
     <header class="tarja-site">
         <div class="logo">
-            <a href="index.html">MR. ROBOT</a>
+            <a href="index copy.html">MR. ROBOT</a>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="index.html">Início (Site original)</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Personagens</a></li>
-                <li><a href="index.html">Original</a></li>
+                <li><a href="index.html">Site Original/Temporário</a></li>
             </ul>
         </nav>
     </header>
@@ -46,13 +45,15 @@
             background-attachment: fixed;
             font-family: Arial, sans-serif;
         }
+
         .tarja-site {
-            background-color: transparent;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 40px;
-            width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 40px;
+        width: 100%;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
         }
 
     
@@ -65,23 +66,25 @@
         }
 
         .navegacao ul {
-            list-style: none;
-            display: flex; 
-            gap: 20px;     
-            margin: 0;
-            padding: 0;
+        list-style: none;
+        display: flex !important;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
         }
 
-        .navegacao a {
-            color: #ffffff;
-            text-decoration: none;
+        .navegacao a,
+        .navegacao a:visited,
+        .navegacao a:link {
+            color: #ffffff !important;
+            text-decoration: none !important;
             font-size: 0.9em;
             font-weight: bold;
             transition: color 0.2s;
         }
 
         .navegacao a:hover {
-            color: #ff0000;
+            color: #ff0000 !important;
         }
     </style>
 
