@@ -3,68 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr. Robot Fã Site</title>
-    <link rel="icon" sizes="250x250" href="icons8-fsociety-mask-250.png"/>
+    <title>Fã Site Mr. Robot</title>
 </head>
 <body>
     <style>
         body {
-            background-color: black;
-            color: white;
+            min-height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url("2400x1350sr.webp");
+            background-image: url(elliot.jpg);
             background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
-             
-            height: 100vh;                
-            margin: 0;
+            background-attachment: fixed;
         }
+        
     </style>
-    <title>Mr. Robot Fã Site</title>
-    <h1>Mr. Robot: Sociedade Hacker</h1>
+   <header class="tarja-site">
+    <div class="marca">
+        <a href="index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg" alt="Mr. Robot" class="logo-img">
+        </a>
+    </div>
+    <nav class="navegacao">
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Personagens</a></li>
+            <li><a href="index.html">Original</a></li>
+            </ul>
+        </nav>
+    </header>
+
 
     <style>
-        h1 {
-            text-align: center;
-            font-size: 3em;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            padding: 25px;
-            width: 100%;
-            background-image: url("Mr._Robot_Logo.svg.webp");
-            background-size: 18% auto;
+                * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url('elliot.jpg');
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        .tarja-site {
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 40px;
+        width: 100%;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+        }
+
+    
+        .logo-img {
+            height: 30px;
+            width: auto;
+            display: block;
+        }   
+
+        .navegacao ul {
+        list-style: none;
+        display: flex !important;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+        }
+
+        .navegacao a,
+        .navegacao a:visited,
+        .navegacao a:link {
+            color: #ffffff !important;
+            text-decoration: none !important;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        .navegacao a:hover {
+            color: #ff0000 !important;
         }
     </style>
 
-
-
-<header class="site-header">
-  <div class="logo">
-    <a href="#">MeuSite</a>
-  </div>
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
-</header>
-
-    
-    <!--
-    <h2>Sinopse da série</h2>
-    
-    
-    <p>
-        Mr. Robot é uma série de televisão norte-americana criada por Sam Esmail. <br>
-         É protagonizada por Rami Malek como Elliot Alderson,
-        um engenheiro de cibersegurança e hacker que sofre de transtorno de ansiedade social, depressão clínica e transtorno dissociativo de identidade.
-    </p>
-    -->
-     
 </body>
 </html>
