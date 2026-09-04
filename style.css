@@ -2,22 +2,23 @@
     position: absolute;
     top: 25%;
     left: 6%;
-    max-width: 500px;
-    z-index: 10;
-    }
+    width: 450px;
+    max-width: 450px;
+    z-index: 9999;
+}
 
 .texto-fsociety h1 {
     font-family: 'Orbitron', 'Arial Black', sans-serif;
     font-size: 3.5rem;
     color: #ff2a2a;
-   text-transform: uppercase;
-   margin: 0 0 10px 0;
-   letter-spacing: 2px;
-   line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    line-height: 1.1;
 }
 
 .texto-fsociety .subtitulo {
-    font-family: 'Fira Code',monospace;
+    font-family: 'Fira Code', 'Courier New', monospace;
     font-size: 1.8rem;
     color: #ffffff;
     margin: 0;
@@ -30,9 +31,10 @@
     animation: vai_piscar 0.8s infinite;
     margin-left: 5px;
 }
+
 @keyframes vai_piscar {
-    0%, 100% { opacity: 0;}
-    50% {opacity: 1;}
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
 }
 
 
