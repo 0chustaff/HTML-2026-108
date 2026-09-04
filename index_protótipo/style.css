@@ -37,6 +37,38 @@
     50% { opacity: 1; }
 }
 
+.efeito-digitacao {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: digitando 3s steps(20) forwards;
+    animation-delay: 0.5s;
+}
+@keyframes digitando {
+    from {width: 0}
+    to {width: 100%;} /* esse coisa das animações são mt fodas lek */
+}
 
+.botao-hacker {
+    display: block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 2px solid #ff2a2a;
+    color: #ff2a2a;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* comando novo que eu n sei oq é mas bora ve como é */
+    border-radius: 4px;
+}
 
-
+.botao-hacker:hover {
+    background-color: #ff2a2a;
+    color: #000000;
+    box-shadow: 0 0 15px #ff2a2a, 0 0 30px #ff2a2a;
+    transform: scale(1.05s); 
+}
