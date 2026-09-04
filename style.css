@@ -1,0 +1,28 @@
+.texto-fsociety {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 180px;
+    padding-left: 8%;
+    box-sizing: border-box;
+    width: 100;
+    }
+.mensagens {
+    max-width: 550px;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    color: #ff2a2a;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin:  0 0 15px 0;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    font-family: 'Fira Code',monospace;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin: 0;
+}
